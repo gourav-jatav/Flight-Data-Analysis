@@ -83,11 +83,6 @@ This project showcases a complete **end-to-end analysis** of airline flight data
 5. **Open the dashboard in your browser:**  
     [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
----
-
-## 🖼️ Optional: Add Visuals
-
-You can add dashboard screenshots or GIFs here to show a preview.
 
 ---
 
