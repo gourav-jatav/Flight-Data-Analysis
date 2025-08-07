@@ -1,97 +1,107 @@
-# ✈️ Flight Data Analysis Project
+# ✈️ Flight Data Analysis with SQL + Python Dashboard
 
-This project is a detailed analysis of airline flight data using **SQL** and **Python**. It showcases my skills in working with real-world datasets, writing optimized SQL queries, and building an interactive dashboard using Plotly.
+This project showcases a complete **end-to-end analysis** of airline flight data using **MySQL** and **Python**. It includes advanced SQL queries to extract insights and a interactive dashboard built using **Dash & Plotly** to visualize flight trends.
 
 ---
 
-## 🚀 What This Project Includes
+## 🚀 Project Highlights
 
-- ✅ Clean and optimized SQL queries to extract insights from flight data  
-- ✅ Python code to connect MySQL database using **PyMySQL** and **SQLAlchemy**  
-- ✅ Data manipulation and analysis using **Pandas**  
-- ✅ Visual representation of data using **Plotly** graphs  
-- ✅ A fully functional dashboard created with **Dash (Plotly Dash)**  
-- ✅ Real-time data querying and visualization
+- 📊 **Data Analysis** using optimized **SQL** queries  
+- 🐍 **Data Visualization** with **Python, Pandas, Plotly, Dash**  
+- 📈 **Fully interactive dashboard** with dropdown filters & date pickers  
+- ⚡ Real-time data fetching using **SQLAlchemy** and **PyMySQL**
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- **SQL (MySQL):** Writing advanced queries using `GROUP BY`, `JOINS`, `CTEs`, `CASE`, `CAST`, `IFNULL`, etc.  
-- **Python:** Writing clean code 
-- **Pandas:** Handling, filtering, and analyzing large datasets  
-- **SQLAlchemy + PyMySQL:** ORM integration to connect Python with MySQL  
-- **Plotly Dash:** Creating dynamic and interactive dashboards for data storytelling
+| Skill | Tools/Tech |
+|------|-------------|
+| Database Querying | MySQL, SQL |
+| Data Connection | SQLAlchemy, PyMySQL |
+| Data Analysis | Pandas |
+| Dashboard Building | Plotly Dash |
+| Interactive UI | Dropdowns, Date Filters |
+| Data Visualization | Scatter plots, Bar charts |
 
 ---
 
-## 📊 Key Insights Generated
+## 📂 Project Structure
 
-- Busiest flight routes and airports  
-- Seat utilization trends  
-- Monthly flight patterns  
-- Total distance and passenger calculations  
-- Route-based performance analysis  
-- Custom visualizations using bar charts, pie charts, and line graphs
-- Many more
+
+---
+
+## 🔍 Key Insights Extracted (via SQL)
+
+- Most common flight routes and top airports  
+- Monthly trends in flight traffic  
+- Passenger and seat analysis by route  
+- Distance vs Passenger correlation  
+- Utilization of seats across different airports
+
+---
+
+## 📊 Dashboard Features (via Python)
+
+- Dropdown to select **Origin Airport(s)**  
+- **Date range filter** to choose a custom time period  
+- **Scatter Plot:** Distance vs Passengers per route  
+- **Bar Chart:** Seats available by destination  
+- Dynamic, real-time updates based on user filters
 
 ---
 
 ## 🛠️ Tools & Libraries Used
 
-- MySQL  
-- Python   
-- Pandas  
-- PyMySQL  
-- SQLAlchemy  
-- Plotly  
-- Dash
+- **Database:** MySQL  
+- **Language:** Python 3  
+- **Libraries:** Pandas, SQLAlchemy, PyMySQL, Plotly, Dash
 
 ---
 
-## 🖼️ Sample Visuals from Dashboard
+## 💡 How to Run the Project
 
-> _You can add screenshots or GIFs of your dashboard here_  
-> (Go to your GitHub repo → Click "Upload files" → Add images → Then link them here)
-
----
-
-## 💡 How to Run This Project
-
-1. Clone the repo:
-    ```
+1. **Clone the repo:**
+    ```bash
     git clone https://github.com/gourav-jatav/flight-data-analysis.git
     cd flight-data-analysis
     ```
 
-2. Install the required packages:
-    ```
+2. **Install the required Python packages:**
+    ```bash
     pip install pandas sqlalchemy pymysql plotly dash
     ```
 
-3. Set up your MySQL database and import the `airportdata` table.
+3. **Import the `airportdata` table into your MySQL database**  
+   (Use the queries provided in `flight_analysis.sql`)
 
-4. Run the Python file:
-    ```
-    python app.py
+4. **Run the dashboard app:**
+    ```bash
+    python flight_dashboard.py
     ```
 
-5. Visit `http://127.0.0.1:8050` in your browser to see the dashboard.
+5. **Open the dashboard in your browser:**  
+    [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
 ---
 
-## 🤝 Let's Connect!
+## 🖼️ Optional: Add Visuals
 
-If you're a recruiter, data science enthusiast, or fellow developer, feel free to connect!
+You can add dashboard screenshots or GIFs here to show a preview.
+
+---
+
+## 🤝 Let’s Connect
+
+If you're a recruiter, data enthusiast, or fellow dev — feel free to reach out!
 
 - 📧 Email: gouravjatavmanit@gmail.com  
 - 💼 LinkedIn: [www.linkedin.com/in/mr-gourav-jatav](https://linkedin.com/in/your-profile)  
-
 
 ---
 
 ## ⭐ Final Note
 
-This project reflects my ability to not only work with SQL and Python but also turn raw data into visual insights that drive decision-making. I’m always open to feedback and collaborations.
+This project reflects my ability to handle **real-world data**, perform **SQL analysis**, and build **interactive dashboards** that are meaningful and visually clear. I'm open to internships, or full-time roles related to **Data, Analytics**.
 
-Thanks for visiting! 😊
+Thanks for checking it out! 😊
